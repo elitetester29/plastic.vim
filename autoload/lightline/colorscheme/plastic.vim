@@ -4,7 +4,7 @@
 " License: MIT License
 " =============================================================================
 let s:foreground = [ '#a9b2c3', 235 ]
-let s:background = [ '#21252b', 235 ]
+let s:background = [ NONE, 235 ]
 let s:yellow = [ '#e5c07b', 180 ]
 let s:purple = [ '#af98e6', 170 ]
 let s:red = [ '#e06c75', 204 ]
@@ -30,4 +30,3 @@ let s:p.normal.error = [ [ s:background, s:red ] ]
 let s:p.normal.warning = [ [ s:background, s:yellow ] ]
 
 let g:lightline#colorscheme#plastic#palette = lightline#colorscheme#flatten(s:p)
-
