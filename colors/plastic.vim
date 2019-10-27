@@ -46,12 +46,7 @@ let s:aqua = { 'gui': '#56b6c2', 'cterm256': '38'}
 let s:white = { 'gui': '#d7d7d7', 'cterm256': '145'}
 let s:black = { 'gui': '#181a1f', 'cterm256': '234'}
 let s:visual_black = { 'gui': 'NONE', 'cterm256': 'NONE'}
-<<<<<<< HEAD
-let s:background = {'gui': '#21252b', 'cterm256': '235'}
-=======
 let s:background = {'gui': 'NONE', 'cterm256': '235'}
-"let s:background = {'gui': '#21252b', 'cterm256': '235'}
->>>>>>> changed background color to NONE, so it can be transparent
 let s:foreground = {'gui': '#a9b2c3', 'cterm256': '235'}
 let s:grey = { 'gui': '#abb2bf', 'cterm256': '59' }
 let s:punctuation = { 'gui': '#7c8696', 'cterm256': '238' }
@@ -76,11 +71,7 @@ call <sid>hi('CursorColumn', s:none, s:blue, 'none', {})
 call <sid>hi('ColorColumn', s:none, s:punctuation, 'none', {})
 call <sid>hi('FoldColumn', s:punctuation, s:background, 'none', {})
 call <sid>hi('SignColumn', s:none, s:background, 'none', {})
-<<<<<<< HEAD
 call <sid>hi('VertSplit', s:grey, s:background, 'none', {})
-=======
-call <sid>hi('VertSplit', s:grey, s:black, 'none', {})
->>>>>>> changed background color to NONE, so it can be transparent
 call <sid>hi('LineNr', s:punctuation, s:background, 'none', {})
 call <sid>hi('CursorLineNr', s:punctuation, s:background, 'none', {})
 
@@ -113,13 +104,8 @@ call <sid>hi('SpellCap', s:none, s:none, 'undercurl', {})
 call <sid>hi('SpellLocal', s:none, s:none, 'undercurl', {})
 call <sid>hi('SpellRare', s:none, s:none, 'undercurl', {})
 
-<<<<<<< HEAD
 call <sid>hi('StatusLine', s:white, s:background, 'none', {})
 call <sid>hi('StatusLineNC', s:white, s:background, 'none', {})
-=======
-call <sid>hi('StatusLine', s:white, s:black, 'none', {})
-call <sid>hi('StatusLineNC', s:white, s:black, 'none', {})
->>>>>>> changed background color to NONE, so it can be transparent
 hi link StatusLineTerm StatusLine
 hi link StatusLineTermNC StatusLineNC
 
